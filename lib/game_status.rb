@@ -36,6 +36,7 @@ end
 
 def winner(board)
   if winning = won?(board)
+    puts winnings
     board[winning.first]
   end
 end
